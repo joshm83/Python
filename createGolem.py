@@ -3,8 +3,6 @@ mc = Minecraft.create()
 
 mc.postToChat("Let's make some Golems!")
 
-
-
 #This will get the player's position
 position = mc.player.getTilePos()
 
