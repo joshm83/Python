@@ -13,9 +13,9 @@ y = position.y
 z = position.z
 
 count = 0
-if count < 10:
+while count < 10:
     count += 1
-    
+
     blockType = 42
 
     mc.setBlock(x, y, z, blockType)
