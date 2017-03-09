@@ -6,4 +6,6 @@ x = position.x
 y = position.y
 z = position.z
 
-x = x + 10
+y = y + 10
+
+mc.player.setTilePos(x, y, z)
