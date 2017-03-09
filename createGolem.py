@@ -13,9 +13,9 @@ y = position.y
 z = position.z
 
 count = 0
-if count < 10:
+while count < 100:
     count += 1
-    
+
     blockType = 42
 
     mc.setBlock(x, y, z, blockType)
@@ -33,3 +33,5 @@ if count < 10:
 
     blockType = 91
     mc.setBlock(x, y, z, blockType)
+
+    mc.player.setPos(x + 1, y + 1, z + 1)
