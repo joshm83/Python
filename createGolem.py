@@ -13,7 +13,11 @@ y = position.y
 z = position.z
 
 count = 0
+<<<<<<< HEAD
 while count < 100:
+=======
+while count < 10:
+>>>>>>> 0f856d340711e28e0c5232f77a324950d85cb7cc
     count += 1
 
     blockType = 42
