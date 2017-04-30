@@ -11,7 +11,7 @@ y = position.y
 z = position.z
 
 count = 0
-while count < 100:
+while count < 10:
 
     count += 1
 
