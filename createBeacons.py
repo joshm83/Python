@@ -8,13 +8,13 @@ x = pos.x
 y = pos.y
 z = pos.z
 
-width = 20
-height = 10
-length = 12
+width = 3
+height = 1
+length = 3
 
-blockType = 4
+blockType = 41
 air = 0
-torch = 50
+
 
 # This will create a stone building
 mc.setBlocks(x, y, z, x + width, y + height, z + length, blockType)
